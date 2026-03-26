@@ -2,10 +2,11 @@
 #include<cmath>
 #include<string>
 using namespace std;
-struct SinhVien{
-    string Hoten;// họ và tên sinh viên
-    double diemtoan; // điểm môn toán
-    double diemvan; // điểm môn văn
+class SinhVien{
+public:
+    string Hoten;     // họ và tên sinh viên
+    double diemtoan;  // điểm môn toán
+    double diemvan;   // điểm môn văn
 };
 /*
    tạo Struct SinhVien

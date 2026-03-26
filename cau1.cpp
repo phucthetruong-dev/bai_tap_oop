@@ -3,9 +3,10 @@
 #include<algorithm>
 #include<vector>
 using namespace std;
-struct PhanSo{
-    long long  tuso;
-    long long  mauso;
+class PhanSo{
+public:
+    long long tuso;
+    long long mauso;
 };
 //Dùng để lưu trữ một phân số gồm tử số và mẫu số
 long long rutgon(long long a ,long long  b ){

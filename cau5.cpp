@@ -9,7 +9,7 @@ public:
     double diemvan;   // điểm môn văn
 };
 /*
-   tạo Struct SinhVien
+   tạo class SinhVien
     chức năng:
         Lưu thông tin của một sinh viên gồm:
         - Họ tên

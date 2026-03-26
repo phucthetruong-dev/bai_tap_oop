@@ -1,7 +1,8 @@
 #include<iostream>
 #include<cmath>
 using namespace std;
-struct PhanSo{
+class PhanSo{
+public:
     long long tuso;
     long long mauso;
 };
